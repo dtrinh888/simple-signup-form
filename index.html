@@ -10,23 +10,25 @@
 </head>
 <body>
 	<div class="container">
-		<header>
+		<header class="text-center">
 			<h1>Acme Inc.</h1>
 		</header>
-		<div class="opt-content">
-			<span>
+		<div class="opt-content row">
+			<div class="col-md-8">
 				<opt-in></opt-in>
-			</span>
-			<span class="signup">
-				<input placeholder="First Name" />
-				<input placeholder="Last Name" />
+			</div>
+			<div class="signup" class="col-md-8">
+				<div class="name-inputs">
+					<input placeholder="First Name" />
+					<input placeholder="Last Name" />
+				</div>
 				<div class="email">
 					<input type="email" placeholder="Email" />
 				</div>
 				<div class="email">
 					<input type="submit" value="Give us yr infoz!" />
 				</div>
-			</span>
+			</div>
 		</div>
 	</div>
 </body>
