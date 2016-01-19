@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Signup Form</title>
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./app.js"></script>
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Acme Inc.</h1>
+		</header>
+		<div class="opt-content">
+			<span>
+				<opt-in></opt-in>
+			</span>
+			<span class="signup">
+				<input placeholder="First Name" />
+				<input placeholder="Last Name" />
+				<div class="email">
+					<input type="email" placeholder="Email" />
+				</div>
+				<div class="email">
+					<input type="submit" value="Give us yr infoz!" />
+				</div>
+			</span>
+		</div>
+	</div>
+</body>
+</html>
